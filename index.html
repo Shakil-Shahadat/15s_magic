@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>15's Magic</title>
+	<link rel="stylesheet" href="src/style.css">
+	<link rel="icon" href="src/magic.svg" type="image/svg+xml">
+</head>
+<body>
+
+<div class="container">
+
+<div class="timerDiv">
+
+	<button class="timerButton" onclick="toggleTimer()">Start Timer</button>
+
+	<span class="timer">
+		<span class="min">00</span> : <span class="sec">00</span>
+	</span>
+
+	<button onclick="resetTimer()">Reset Timer</button>
+
+</div><br><br>
+
+<table>
+	<tr>
+		<td onclick="moveNum( 0, 0, true )">1</td>
+		<td onclick="moveNum( 0, 1, true )">2</td>
+		<td onclick="moveNum( 0, 2, true )">3</td>
+	</tr>
+	<tr>
+		<td onclick="moveNum( 1, 0, true )">4</td>
+		<td onclick="moveNum( 1, 1, true )">5</td>
+		<td onclick="moveNum( 1, 2, true )">6</td>
+	</tr>
+	<tr>
+		<td onclick="moveNum( 2, 0, true )">7</td>
+		<td onclick="moveNum( 2, 1, true )">8</td>
+		<td onclick="moveNum( 2, 2, true )"></td>
+	</tr>
+</table>
+
+<div class="resetBtn">
+	<button onclick="sortTable(); resetTimer()">Reset Game</button>
+</div>
+
+</div><!-- .container -->
+
+<script src="src/script.js"></script>
+</body>
+</html>
