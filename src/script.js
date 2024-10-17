@@ -7,14 +7,19 @@ function qsa( cls )
 }
 
 
-function sortTable()
+// Randomize numbers in the cells
+function randomizeTable()
 {
 	for ( let i = 0; i <= 1000; i++ )
 	{
+		// Select a cell randomly and move it's number to an adjacent empty
+		// cell, if there is any
 		moveNum( Math.round( 2 * Math.random() ), Math.round( 2 * Math.random() ), false );
 	}
-}
-sortTable();
+} // randomizeTable() ends
+
+// Randomize numbers of the table on load
+randomizeTable();
 
 
 function moveNum( x, y, z )
