@@ -1,0 +1,31 @@
+body
+{
+	font-family: 'Segoe UI', Verdana, Arial, Helvetica, sans-serif;
+	margin-top: 100px;
+	background-color: whitesmoke;
+}
+.timerDiv
+{
+	margin: auto;
+	width: 240px;
+}
+table
+{
+	margin: auto;
+	border-collapse: collapse;
+	border: 1px solid lightgrey;
+}
+td
+{
+	border: 1px solid lightgray;
+	padding: 10px;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+}
+.resetBtn
+{
+	margin: auto;
+	margin-top: 50px;
+	width: 100px;
+}
