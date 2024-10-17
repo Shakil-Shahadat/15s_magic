@@ -45,7 +45,6 @@ sortTable();
 
 function moveNum( x, y, z )
 {
-	// console.log( x + ' ' + y );
 	// Don't do anything if the cell is empty
 	if ( qsa( 'tr' )[ x ].querySelectorAll( 'td' )[ y ].innerHTML == '' )
 	{
