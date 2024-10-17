@@ -6,32 +6,6 @@ function qsa( cls )
 	return document.querySelectorAll( cls );
 }
 
-/*
-// Add numbers to boxes randomly
-function generateRandomNumber()
-{
-	let myNumArray = [ 1, 2, 3, 4, 5, 6, 7, 8 ];
-	myNumArray.sort( function() { return 0.5 - Math.random() } ); // Shuffle array items
-	let elementNum = 0;
-
-	for ( let i = 0; i <= 2; i++ )
-	{
-		for ( let j = 0; j <= 2; j++ )
-		{
-			if ( i !== 2 || j !== 2 )
-			{
-				qsa( 'tr' )[ i ].querySelectorAll( 'td' )[ j ].innerHTML = myNumArray[ elementNum++ ];
-			} // if ends
-			else
-			{
-				// Ensure that the last cell is empty
-				qsa( 'tr' )[ i ].querySelectorAll( 'td' )[ j ].innerHTML = '';
-			}
-		} // for loop ends
-	} // for loop ends
-} // generateRandomNumber() ends
-// generateRandomNumber();
-*/
 
 function sortTable()
 {
