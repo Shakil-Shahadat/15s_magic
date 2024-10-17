@@ -16,7 +16,7 @@ function randomizeTable()
 		// cell, if there is any
 		moveNum( Math.round( 2 * Math.random() ), Math.round( 2 * Math.random() ), false );
 	}
-} // randomizeTable() ends
+} // End of randomizeTable()
 
 // Randomize numbers of the table on load
 randomizeTable();
