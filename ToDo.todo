@@ -2,5 +2,3 @@ ToDo:
  ☐ Later: Algorithm to solve it
  ☐ Later: An option to make it 3x3 to 5x5 @created(24-10-16 01:56)
  ☐ Move row/column when there is an empty cell in it @created(24-10-16 02:57)
-
- ☐ Make a new qsa(), named as dqsa() @created(24-10-17 17:16)
