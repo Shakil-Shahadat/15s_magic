@@ -30,6 +30,13 @@ randomizeTable();
 
 function moveNum( x, y, z )
 {
+	// If the game is over, don't move anything
+	if ( gameOver === true )
+	{
+		return;
+	}
+
+	// Start the timer if this function is called from the cells
 	if ( z === true )
 	{
 		startTimer();
