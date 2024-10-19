@@ -24,6 +24,11 @@ randomizeTable();
 
 function moveNum( x, y, z )
 {
+	if ( z === true )
+	{
+		startTimer();
+	}
+
 	// Don't do anything if the cell is empty
 	if ( qsa( 'tr' )[ x ].querySelectorAll( 'td' )[ y ].innerHTML == '' )
 	{
