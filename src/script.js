@@ -140,6 +140,22 @@ function toggleTimer()
 	}
 } // End of toggleTimer()
 
+// A function to start the timer
+function startTimer()
+{
+	if ( timerStat === false )
+	{
+		// If the timer is off, turn it on
+		timerStat = true;
+
+		// Change the text of the timer start button
+		document.querySelector( '.timerButton' ).innerText = 'Pause Timer';
+
+		// Turn on the timer
+		secCounter = setInterval( updateTimer, 1000 );
+	}
+} // End of startTimer()
+
 // A function to update the time of the timer
 function updateTimer()
 {
