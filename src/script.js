@@ -13,6 +13,9 @@ function qsa( cls )
 // Randomize numbers in the cells
 function randomizeTable()
 {
+	// Reset game state
+	gameOver = false;
+
 	for ( let i = 0; i <= 1000; i++ )
 	{
 		// Select a cell randomly and move it's number to an adjacent empty
