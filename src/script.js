@@ -1,5 +1,8 @@
 'use strict';
 
+// A variable to keep the status of the game
+let gameOver = false;
+
 // A helper function for shortening querySelectorAll()
 function qsa( cls )
 {
