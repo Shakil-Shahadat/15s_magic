@@ -204,9 +204,6 @@ function pauseTimer()
 		// If the timer is on, turn it off
 		timerStat = false;
 
-		// Change the text of the timer start button
-		document.querySelector( '.timerButton' ).innerText = 'Start Timer';
-
 		// Turn off the timer
 		clearInterval( secCounter );
 	}
