@@ -217,9 +217,6 @@ function resetTimer()
 
 	timerStat = false;
 
-	// Change the text of the timer start button
-	document.querySelector( '.timerButton' ).innerText = 'Start Timer';
-
 	// Reset the value of second and minute
 	document.querySelector( '.sec' ).innerText = '00';
 	document.querySelector( '.min' ).innerText = '00';
