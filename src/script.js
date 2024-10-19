@@ -116,6 +116,9 @@ function checkBoxes()
 		}
 	}
 
+	// Set game state
+	gameOver = true;
+
 	// Pause the timer
 	pauseTimer();
 
