@@ -118,33 +118,6 @@ function checkBoxes()
 let timerStat = false;
 let secCounter;
 
-// A function to toggle the timer
-function toggleTimer()
-{
-	if ( timerStat === false )
-	{
-		// If the timer is off, turn it on
-		timerStat = true;
-
-		// Change the text of the timer start button
-		document.querySelector( '.timerButton' ).innerText = 'Pause Timer';
-
-		// Turn on the timer
-		secCounter = setInterval( updateTimer, 1000 );
-	}
-	else
-	{
-		// If the timer is on, turn it off
-		timerStat = false;
-
-		// Change the text of the timer start button
-		document.querySelector( '.timerButton' ).innerText = 'Start Timer';
-
-		// Turn off the timer
-		clearInterval( secCounter );
-	}
-} // End of toggleTimer()
-
 // A function to start the timer
 function startTimer()
 {
