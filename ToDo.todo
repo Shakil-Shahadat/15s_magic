@@ -2,3 +2,4 @@ ToDo:
  ☐ Later: Algorithm to solve it
  ☐ Later: An option to make it 3x3 to 5x5 @created(24-10-16 01:56)
  ☐ Move row/column when there is an empty cell in it @created(24-10-16 02:57)
+ ☐ Calculate and show total number of clicks in the final alert @created(24-10-25 19:08)
