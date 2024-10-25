@@ -6,7 +6,7 @@ body
 }
 table
 {
-	margin: auto;
+	margin: 50px auto;
 	border-collapse: collapse;
 	border: 1px solid lightgrey;
 }
